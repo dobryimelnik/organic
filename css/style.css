@@ -234,9 +234,13 @@ img {
 .btn:hover,
 .btn:active,
 .btn:focus {
-    background: linear-gradient(180deg, #6c7766 0%, #494949 100%);
+    background: linear-gradient(180deg, #7ea769 0%, #494949 100%);
 }
 
+.btn:active {
+    position: relative;
+    top: 1px;
+}
 .wrapper {
     max-width: 1260px;
     margin: 0 auto;
@@ -698,6 +702,60 @@ img {
     padding: 0 10px;
 }
 /* /testimonials ================*/
+
+/* subscribe==================== */
+
+.subscribe {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.subscribe__title {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subscribe__subtitle {
+    margin-bottom: 40px;
+}
+
+.subscribe__form {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 18px;
+}
+
+.subscribe__input {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 17px;
+
+    outline: none;
+    border: 1px solid #f5f5f5;
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);    
+}
+
+.subscribe__input::placeholder {
+    color: #8a8a8a;
+    opacity: .6;
+}
+/* /subscribe==================== */
+
+/* footer======================== */
+.footer {
+    padding: 112px 0;
+    background-color: #fcfcfc;
+}
+/* /footer======================== */
 
 @media screen and (max-width: 992px) {
     .intro {
