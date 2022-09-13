@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/swiper.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/modal.css">
 </head>
 <body>
     <header class="header">
@@ -36,7 +37,7 @@
                 <!-- /header__nav-list -->
             </nav>
             <!-- /header__nav -->
-            <button class="btn header-btn">Order Now</button>
+            <button class="btn header-btn more">Order Now</button>
             <!-- /btn -->
         </div>
         <!-- /header__wrapper -->
@@ -53,7 +54,7 @@
                         <p class="section__subtitle intro__subtitle">
                             Enjoy a healthy life by eating healthy foods that have extraordinary flavors that make your life healthier for today and in the future
                         </p>
-                        <button class="btn intro__btn">Order Now</button>
+                        <button class="btn intro__btn more">Order Now</button>
                     </div>
                     <!-- /intro__data -->
                     <div class="intro__bg">
@@ -412,8 +413,33 @@
         <!-- /wrapper -->
     </footer>
     <!-- /footer -->
+
+    <!-- modal (start) -->
+	<div class="modal hidden">
+		<div class="overlay"></div>
+		<div class="modal-wrapper">
+            <h2 class="subscribe__title modal__title">
+                <span class="title--green">Leave</span> Your order
+            </h2>
+			<p class="modal__descr">
+				Leave your email so that we can contact you about your order.
+			</p>
+			<button type="button" class="modal__close" aria-label="закрыть модальное окно">
+			</button>
+			<form class="form modal__form">
+                <div class="modal__data">
+                    <input type="text" name="name" class="input modal__input subscribe__input" placeholder="Your name">
+				    <input type="mail" name="mail" class="input modal__input subscribe__input" placeholder="Enter your Email">	
+                    <button type="submit" class="btn subscribe__btn modal__button button" >Get Started</button>			
+                </div>
+			</form>
+			<!-- /.form modal__form -->
+		</div>
+	</div>
+	<!-- modal (end) -->
     <script src="./js/swiper.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/smoothScroll.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
