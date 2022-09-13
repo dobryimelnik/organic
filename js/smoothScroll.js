@@ -9,5 +9,6 @@ newArray.forEach(link => {
             behavior: 'smooth',
             block: 'start'
         });
+        
     })
 })

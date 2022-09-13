@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organic</title>
     <link rel="stylesheet" href="./css/swiper.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/style.css">    
     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
     <header class="header">
@@ -19,7 +20,7 @@
                 </a>
             </div>
             <!-- /header__logo -->
-            <nav class="header__nav">
+            <nav class="header__nav" id="nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
                         <a href="#home" class="header__nav-link">home</a>
@@ -32,11 +33,21 @@
                     </li>
                     <li class="header__nav-item">
                         <a href="#testimonials" class="header__nav-link">testimonials</a>
-                    </li>
+                    </li> 
                 </ul>
                 <!-- /header__nav-list -->
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                    <span class="header__nav-close-line"></span>
+                </div>          
             </nav>
             <!-- /header__nav -->
+            <div class="burger header__burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </div>
+            <!-- /header__burger -->
             <button class="btn header-btn more">Order Now</button>
             <!-- /btn -->
         </div>
@@ -441,5 +452,6 @@
     <script src="./js/script.js"></script>
     <script src="./js/smoothScroll.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/burger.js"></script>
 </body>
 </html>
