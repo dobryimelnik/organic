@@ -878,6 +878,10 @@ img {
 }
 
 @media screen and (max-width: 522px) {
+    .main__title {
+        font-size: 46px;
+    }
+
     .author__text {
         font-size: 14px;
         line-height: 1.5;
