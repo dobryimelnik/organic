@@ -132,4 +132,10 @@
     .header-btn {
         display: none;
     }
+
+    .about__gallery {
+        grid-template-columns: repeat(2, 145px);
+        grid-template-rows: repeat(2, 180px);
+    }
+    
 }
