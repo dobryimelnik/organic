@@ -129,13 +129,7 @@
         padding-bottom: 16px;
     }
 
-    /* .header__wrapper {
-        flex-direction: column;
-        justify-content: center;
-    } */
-    /* .header__nav-list {
-        flex-direction: column;
-        row-gap: 20px;
-    } */
-   
+    .header-btn {
+        display: none;
+    }
 }
