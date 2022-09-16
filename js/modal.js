@@ -1,4 +1,4 @@
-const modalBtns = document.querySelectorAll('.more');// кнопка learn more
+const modalBtns = document.querySelectorAll('.order');// кнопка order now
 const modal = document.querySelector('.modal');// модальное окно с изначально поставленным классом hidden
 
 for(let modalBtn of modalBtns) {
